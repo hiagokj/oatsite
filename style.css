@@ -29,12 +29,12 @@
             color: #ffffff;
         }
 
-        .banner {
-            background: url('banner.jpg') no-repeat center center;
-            background-size: cover;
-            color:fff;
-            padding: 100px 0;
+        .banner { 
+            background-color: #91038a60;        
+            color: fff;
+            padding:50px;
             text-align: center;
+            background-position-y: center;                                              
         }
 
         .banner h1 {
@@ -80,3 +80,30 @@
             color: #e987e4;
             font-size: 15px;            
         }
+
+        .game-text {
+            background-color: #333;
+            color: fff;
+            font-size: 17px;
+            border-radius: 50px;    
+        }
+        
+       .bg-contato{
+        background-color: #33333300;
+        color: fff;
+        font-family: sans-serif;
+        font-style: italic;                
+       }
+
+       .perguntas{
+        font-size: 40px;        
+        text-align: center;
+        font-family: sans-serif;
+        color: fff;        
+       }
+       .respostas{
+        font-size: 20px;
+        text-align: center;
+        font-family: sans-serif;
+        color:fff;        
+       }
